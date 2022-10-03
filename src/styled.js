@@ -82,6 +82,7 @@ align-items: center;
 justify-content: space-between;
 `;
 
+
 export const PromoHead = styled.tbody`
 width: 500px;
 display: flex;
@@ -106,6 +107,7 @@ color: #696969;
 Promo.btnWrap = styled.td`
 display: flex;
 `;
+
 Promo.btn = styled.button`
 font-weight: 400;
 font-size: 14px;

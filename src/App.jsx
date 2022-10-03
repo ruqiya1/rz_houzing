@@ -22,7 +22,6 @@ class App extends React.Component {
       this.setState({ list: res, selected: null })
     }
 
-    console.log(this.state.selected);
     return (
       <Tarzan>
         <div>

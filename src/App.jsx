@@ -31,7 +31,7 @@ class App extends React.Component {
               return <Container>
                 <img src={v.img} />
                 <Container.heroWrap>
-                 <Container.TitleWrapFlex>
+                  <Container.TitleWrapFlex>
                     <Container.TitleWrap>
                       <Container.Title>{slc ? <input defaultValue={this.state.selected.title} onChange={(e) => { this.setState({ selected: { ...this.state.selected, title: e.target.value } }) }} /> : v.title}</Container.Title>
                       <Container.Text>{slc ? <input defaultValue={this.state.selected.text} onChange={(e) => { this.setState({ selected: { ...this.state.selected, text: e.target.value } }) }} /> : v.text}</Container.Text>

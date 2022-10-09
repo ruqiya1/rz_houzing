@@ -12,11 +12,9 @@ class App extends React.Component {
       let res = this.state.list.filter(v => v.id != id)
       this.setState({ list: res })
     }
-
     const Edit = (selected) => {
       this.setState({ selected })
     }
-
     const Save = () => {
       let res = this.state.list.map(vl => vl.id == this.state.selected.id ? this.state.selected : vl)
       this.setState({ list: res, selected: null })

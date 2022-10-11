@@ -2,6 +2,7 @@ import React from "react";
 import { data } from './mock.jsx'
 import { Tarzan, Container, Promo, PromoHead } from './styled.js'
 
+
 class App extends React.Component {
   state = {
     list: data,
